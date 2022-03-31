@@ -1,10 +1,10 @@
 .sortable {
 	cursor: pointer;
-	color: #dd5;
+	color: rgb(231, 231, 69);
 }
 
 .warning {
-	background-color: #da8a8a;
+	background-color: #f18b16;
 }
 
 table {
@@ -13,12 +13,20 @@ table {
  overflow: hidden;
  margin: 12px 0;
  min-width: 300px;
- background: #dad8d8;
+ background: #fff;
 }
 
 .header-row {
-	background: #34495E;
+	background: #2e4358;
 	color: #fff
+}
+
+.data-row {
+	background: rgb(157, 247, 184);
+}
+
+.data-row:nth-child(odd) {
+	background: rgb(190, 208, 247);
 }
 
 th, td {
